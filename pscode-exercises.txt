@@ -1,0 +1,41 @@
+
+// Exercise 1: Calculate the Sum of Two Numbers
+
+prompt first int "a"
+prompt second int "b"
+ int a+b = sum
+  display int sum
+end procedure
+
+// Exercise 2: Check if a Number is Even or Odd
+
+prompt enter int a
+ int a/2
+  if divisable
+  then even
+  other odd
+end procedure
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+prompt first int "a"
+prompt second int "b"
+prompt third int "c"
+prompt forth int "d"
+prompt fifth int "e"
+add a + b + c + d + e = sum
+divide sum by 5 = av
+create array int m[]={a, b, c, d, e}
+ sort array
+display - "the average of numbers entered is" av
+display - "m[0]" "minimum"
+display - "m[4]" "maximum"
+end procedure
+
+-- END -
